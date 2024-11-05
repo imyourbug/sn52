@@ -11,7 +11,7 @@ services:
     image: ghcr.io/opentensor/subtensor:latest
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/Dockerfile
       target: subtensor
     cpu_count: 4
     mem_limit: 40000000000
